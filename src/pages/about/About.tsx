@@ -41,7 +41,7 @@ function About() {
         </Typography>
         <br />
         <Typography variant="body1" className="subtitle">
-          However, fast forward to 3 years go, I found my passion in Frontend
+          However, fast forward to 3 years ago, I found my passion in Frontend
           Development. I have been working with React, SCSS and Typescript, and
           I love it. I have been self learning Next.js and Tailwind CSS as I
           feel those are the future of Frontend Development.
@@ -59,7 +59,7 @@ function About() {
           Food and{" "}
           <CustomLink href="https://www.contextworld.com/home" label="Data" />{" "}
           Industries. Currently I'm working as a Product Developer at{" "}
-          <CustomLink href="https://edison365.com/" label="Edison365" />, a SaSS
+          <CustomLink href="https://edison365.com/" label="Edison365" />, a SaaS
           company.
         </Typography>
       </Stack>
