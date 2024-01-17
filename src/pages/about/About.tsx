@@ -59,7 +59,7 @@ function About() {
           Food and{" "}
           <CustomLink href="https://www.contextworld.com/home" label="Data" />{" "}
           Industries. Currently I'm working as a Product Developer at{" "}
-          <CustomLink href="https://edison365.com/" label="Edison365" />, a SaSS
+          <CustomLink href="https://edison365.com/" label="Edison365" />, a SaaS
           company.
         </Typography>
       </Stack>
