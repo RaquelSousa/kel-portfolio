@@ -3,6 +3,7 @@ import "./App.scss";
 import {
   CssBaseline,
   PaletteMode,
+  Stack,
   ThemeProvider,
   createTheme,
 } from "@mui/material";
@@ -35,12 +36,21 @@ function App() {
   return (
     <ColorModeContext.Provider value={colorMode}>
       <ThemeProvider theme={theme}>
-        <CssBaseline />
-        <ScrollToAnchor />
-        <Header />
-        <Home />
-        <Top />
-        <Footer />
+        <Stack
+          sx={{
+            background:
+              mode === "dark"
+                ? "radial-gradient(circle, rgba(105,65,2,1) 0%, rgba(107,67,0,1) 0%, rgba(29,3,48,1) 52%)"
+                : "radial-gradient(circle, rgba(244,201,134,1) 0%, rgba(255,255,255,1) 37%);",
+          }}
+        >
+          <CssBaseline />
+          <ScrollToAnchor />
+          <Header />
+          <Home />
+          <Top />
+          <Footer />
+        </Stack>
       </ThemeProvider>
     </ColorModeContext.Provider>
   );

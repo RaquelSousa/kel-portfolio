@@ -1,11 +1,5 @@
 import { PaletteMode } from "@mui/material";
-import {
-  deepOrange,
-  deepPurple,
-  grey,
-  orange,
-  purple,
-} from "@mui/material/colors";
+import { deepOrange, deepPurple, grey, orange } from "@mui/material/colors";
 
 export const getDesignTokens = (mode: PaletteMode) => ({
   palette: {
@@ -31,7 +25,11 @@ export const getDesignTokens = (mode: PaletteMode) => ({
           secondary: orange,
           divider: deepPurple[700],
           background: {
-            default: "#1d0330",
+            default:
+              "#553500 radial-gradient(circle, #553500 6%, #1d0330 100%)",
+
+            // background: rgb(85,53,0);
+            // background: radial-gradient(circle, rgba(85,53,0,1) 6%, rgba(29,3,48,1) 100%);
             paper: "#1d0330",
           },
           text: {

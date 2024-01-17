@@ -38,7 +38,7 @@ export const projects: Array<ProjectType> = [
     website: "https://cryoware.dreamhosters.com/",
     description:
       "This is the current website you're on. A CV/Portfolio website to showcase my experience.",
-    git: "https://github.com/lenatomas/nano",
+    git: "https://github.com/RaquelSousa/kel-portfolio",
     skills: ["Typescript", "React", "SCSS", "Git"],
   },
 ];
