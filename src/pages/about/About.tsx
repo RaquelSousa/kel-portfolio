@@ -41,7 +41,7 @@ function About() {
         </Typography>
         <br />
         <Typography variant="body1" className="subtitle">
-          However, fast forward to 3 years go, I found my passion in Frontend
+          However, fast forward to 3 years ago, I found my passion in Frontend
           Development. I have been working with React, SCSS and Typescript, and
           I love it. I have been self learning Next.js and Tailwind CSS as I
           feel those are the future of Frontend Development.
