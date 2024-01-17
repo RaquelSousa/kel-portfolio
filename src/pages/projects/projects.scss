@@ -1,0 +1,29 @@
+.root-projects {
+  .title1 {
+    position: relative;
+    max-width: 500px;
+    text-align: center;
+
+    &:after {
+      content: " ";
+      height: 1px;
+      width: 150px;
+      background: red;
+      display: block;
+      position: absolute;
+      top: 50%;
+      right: 200;
+    }
+
+    &:before {
+      content: " ";
+      height: 1px;
+      width: 150px;
+      background: red;
+      display: block;
+      position: absolute;
+      top: 50%;
+      left: -273px;
+    }
+  }
+}

@@ -1,0 +1,33 @@
+.root-experience {
+  left: 1300px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+  .title {
+    position: relative;
+    max-width: 500px;
+    text-align: center;
+
+    &:after {
+      content: " ";
+      height: 1px;
+      width: 150px;
+      background: red;
+      display: block;
+      position: absolute;
+      top: 50%;
+      right: 200;
+    }
+
+    &:before {
+      content: " ";
+      height: 1px;
+      width: 150px;
+      background: red;
+      display: block;
+      position: absolute;
+      top: 50%;
+      left: -290px;
+    }
+  }
+}

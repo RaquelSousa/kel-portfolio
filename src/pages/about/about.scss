@@ -1,0 +1,24 @@
+.root-about {
+  margin: 100px 0px 50px 100px;
+
+  .subtitle {
+    color: grey;
+  }
+
+  .title {
+    position: relative;
+    max-width: 500px;
+    text-align: center;
+
+    &:after {
+      content: " ";
+      height: 1px;
+      width: 150px;
+      background: red;
+      display: block;
+      position: absolute;
+      top: 50%;
+      right: 200;
+    }
+  }
+}
