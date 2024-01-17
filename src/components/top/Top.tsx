@@ -27,8 +27,13 @@ const ScrollToTop = () => {
   return (
     <IconButton
       className="scrollTop"
-      style={{ display: isVisible ? "block" : "none" }}
       onClick={goTop}
+      sx={(theme) => ({
+        "&:hover": {
+          background: "inherit",
+        },
+        display: isVisible ? "block" : "none",
+      })}
     >
       <ArrowUpwardTwoToneIcon />
     </IconButton>

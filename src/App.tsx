@@ -48,8 +48,8 @@ function App() {
           <ScrollToAnchor />
           <Header />
           <Home />
-          <Top />
           <Footer />
+          <Top />
         </Stack>
       </ThemeProvider>
     </ColorModeContext.Provider>

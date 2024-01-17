@@ -1,5 +1,6 @@
 import Hiraeth from "../assets/hiraeth.png";
 import Cryoware from "../assets/cryoware.png";
+import RaquelCv from "../assets/raquelcv.png";
 
 export interface ProjectType {
   id: number;
@@ -33,9 +34,9 @@ export const projects: Array<ProjectType> = [
   },
   {
     id: 2,
-    img: Cryoware,
+    img: RaquelCv,
     title: "Portfolio",
-    website: "https://cryoware.dreamhosters.com/",
+    website: "https://raquelsousa.dreamhosters.com/",
     description:
       "This is the current website you're on. A CV/Portfolio website to showcase my experience.",
     git: "https://github.com/RaquelSousa/kel-portfolio",
