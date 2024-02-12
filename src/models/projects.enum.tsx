@@ -20,7 +20,7 @@ export const projects: Array<ProjectType> = [
     website: "https://hiraeth.dreamhosters.com/",
     description: "Website created for a World of Warcraft guild called Hiraeth",
     git: "https://github.com/RaquelSousa/hiraeth2",
-    skills: ["Typescript", "React", "SCSS", "Git"],
+    skills: ["Typescript", "React", "SaSS", "Git"],
   },
   {
     id: 1,
@@ -30,7 +30,7 @@ export const projects: Array<ProjectType> = [
     description:
       "Website created for a friend starting a pc building business. Under development.",
     git: "https://github.com/lenatomas/nano",
-    skills: ["Typescript", "React", "SCSS", "Git"],
+    skills: ["Typescript", "React", "SaSS", "Git"],
   },
   {
     id: 2,
@@ -40,6 +40,6 @@ export const projects: Array<ProjectType> = [
     description:
       "This is the current website you're on. A CV/Portfolio website to showcase my experience.",
     git: "https://github.com/RaquelSousa/kel-portfolio",
-    skills: ["Typescript", "React", "SCSS", "Git"],
+    skills: ["Typescript", "React", "SaSS", "Git", "Tailwind CSS"],
   },
 ];

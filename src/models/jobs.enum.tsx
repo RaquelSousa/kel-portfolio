@@ -16,8 +16,19 @@ export const job: Array<JobType> = [
     company: "Edison365",
     dates: "Aug 2021 - Present",
     content:
-      "Frontend development of a brand new web application. Bug fixing, new feature implementation, Code Reviews, Pull Request Approval and Unit Testing.",
-    skills: ["Typescript", "React", "SCSS", "Unit Testing", "Agile", "Azure"],
+      "Development of a brand new SaaS application from scratch, with micro applications and microservices. Development of a component library. Agile work environment, including Code Reviews. Unit Testing.",
+    skills: [
+      "Typescript",
+      "React",
+      "SaSS",
+      "Jest",
+      "Agile",
+      "Azure",
+      "Material UI",
+      "Redux",
+      "HTML",
+      "Storybook",
+    ],
   },
   {
     id: 1,
