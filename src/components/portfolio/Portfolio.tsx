@@ -3,7 +3,7 @@ import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
-import { CardActionArea, Chip, Grid, IconButton, Stack } from "@mui/material";
+import { CardActionArea, Grid, IconButton, Stack } from "@mui/material";
 import { projects, ProjectType } from "../../models/projects.enum";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import { FC } from "react";
@@ -14,7 +14,7 @@ function Portfolio() {
     <Grid container spacing={1} justifyContent="center" alignItems="center">
       {projects.map((project: ProjectType) => (
         <Grid item xs={2} md={2}>
-          <Card sx={{ maxWidth: 400 }}>
+          <Card sx={{ maxWidth: 400, minHeight: 350 }}>
             <CardActionArea href={project.website} target="_blank">
               <CardMedia
                 component="img"

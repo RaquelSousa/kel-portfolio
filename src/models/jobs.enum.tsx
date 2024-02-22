@@ -28,6 +28,7 @@ export const job: Array<JobType> = [
       "Redux",
       "HTML",
       "Storybook",
+      "RESTful APIs",
     ],
   },
   {

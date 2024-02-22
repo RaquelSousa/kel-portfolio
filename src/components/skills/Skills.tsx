@@ -7,11 +7,18 @@ interface SkillProps {
 
 export const Skills: FC<SkillProps> = ({ jobSkills }) => {
   return (
-    <Stack direction="row" spacing={1}>
+    <Stack
+      direction="row"
+      justifyContent="center"
+      spacing={1}
+      sx={{ flexWrap: "wrap" }}
+    >
       {jobSkills.map((skill: string) => (
-        <Stack direction="row" spacing={1}>
-          <Chip color="secondary" label={skill} />
-        </Stack>
+        <Chip
+          color="secondary"
+          label={skill}
+          sx={{ marginBottom: "10px !important" }}
+        />
       ))}
     </Stack>
   );

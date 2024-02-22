@@ -75,4 +75,24 @@ export const skills: Array<IntSkills> = [
     name: "Git",
     class: "text-3xl text-cyan-500",
   },
+  {
+    id: 14,
+    name: "RESTful APIs",
+    class: "text-lg text-green-500",
+  },
+  {
+    id: 15,
+    name: "CSS",
+    class: "text-4xl text-red-500",
+  },
+  {
+    id: 16,
+    name: "C#",
+    class: "text-lg text-gray-500",
+  },
+  {
+    id: 17,
+    name: "Node.js",
+    class: "text-sm text-orange-500",
+  },
 ];
