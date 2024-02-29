@@ -20,7 +20,7 @@ export const job: Array<JobType> = [
     skills: [
       "Typescript",
       "React",
-      "SaSS",
+      "SCSS",
       "Jest",
       "Agile",
       "Azure",

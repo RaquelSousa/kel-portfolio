@@ -12,7 +12,7 @@ export const skills: Array<IntSkills> = [
   },
   {
     id: 1,
-    name: "SaSS",
+    name: "SCSS",
     class: "text-xl text-teal-500",
   },
   {
@@ -94,5 +94,15 @@ export const skills: Array<IntSkills> = [
     id: 17,
     name: "Node.js",
     class: "text-sm text-orange-500",
+  },
+  {
+    id: 18,
+    name: "Bootstrap",
+    class: "text-md text-blue-500",
+  },
+  {
+    id: 19,
+    name: "Angular",
+    class: "text-xl text-grey-500",
   },
 ];
