@@ -54,7 +54,7 @@ export const projects: Array<ProjectType> = [
     id: 3,
     img: Weather,
     title: "Weather App",
-    website: "https://raquelsousa.dreamhosters.com/",
+    website: "https://kelweather.dreamhosters.com/",
     description:
       "Basic Weather app to search a city and get details of the weather real-time.",
     git: "https://github.com/RaquelSousa/weather-app",
