@@ -1,5 +1,3 @@
-import { Link } from "@mui/material";
-
 export interface JobType {
   id: number;
   jobTitle: string;
@@ -12,9 +10,29 @@ export interface JobType {
 export const job: Array<JobType> = [
   {
     id: 0,
+    jobTitle: "Software Engineer I",
+    company: "Safety NetAccess",
+    dates: "Apr 2024 - Present",
+    content:
+      "Ad-hoc internet access portal development. Various technologies and languages used to fit customer's requirements.",
+    skills: [
+      "Typescript",
+      "React",
+      "CSS",
+      "HTML",
+      "Git",
+      "Node.JS",
+      "RESTful APIs",
+      "Next.JS",
+      "Node-RED",
+      "Apex",
+    ],
+  },
+  {
+    id: 1,
     jobTitle: "Product Developer",
     company: "Edison365",
-    dates: "Aug 2021 - Present",
+    dates: "Aug 2021 - Apr 2024",
     content:
       "Development of a brand new SaaS application from scratch, with micro applications and microservices. Development of a component library. Agile work environment, including Code Reviews. Unit Testing.",
     skills: [
@@ -32,7 +50,7 @@ export const job: Array<JobType> = [
     ],
   },
   {
-    id: 1,
+    id: 2,
     jobTitle: "Software Engineer",
     company: "Stark",
     dates: "Aug 2020 - Aug 2021",
@@ -41,7 +59,7 @@ export const job: Array<JobType> = [
     skills: ["VB.net", "SQL", "SSMS", "TFS", "Agile", "VBA", "Excel"],
   },
   {
-    id: 2,
+    id: 3,
     jobTitle: "Business Analyst",
     company: "Maple Parking",
     dates: "July 2018 - April 2020",
@@ -50,7 +68,7 @@ export const job: Array<JobType> = [
     skills: ["SQL", "SSMS", "PowerBI", "Excel", "Office365", "IT Support"],
   },
   {
-    id: 3,
+    id: 4,
     jobTitle: "Junior Developer",
     company: "Two Circles",
     dates: "September 2017 - July 2018",
@@ -59,7 +77,7 @@ export const job: Array<JobType> = [
     skills: ["SSIS", "C#", "SQL", "Excel", "Jira", "Agile"],
   },
   {
-    id: 4,
+    id: 5,
     jobTitle: "Junior Data Analyst",
     company: "Context",
     dates: "October 2016 - August 2017",
