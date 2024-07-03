@@ -41,10 +41,9 @@ function About() {
           </Typography>
           <br />
           <Typography variant="body1" className="subtitle">
-            However, fast forward to 3 years ago, I found my passion in Frontend
-            Development. I have been working with React, SCSS and Typescript,
-            and I love it. I have been self learning Next.js and Tailwind CSS as
-            I feel those are the future of Frontend Development.
+            However, fast forward to 2019, I found my passion in Frontend
+            Development. I have been working with React, CSS and Typescript, and
+            I love it.
           </Typography>
           <br />
           <Typography variant="body1" className="subtitle">
@@ -59,11 +58,18 @@ function About() {
               href="https://www.mapleparking.co.uk/"
               label="Parking"
             />
-            , Food and{" "}
+            , Food,{" "}
             <CustomLink href="https://www.contextworld.com/home" label="Data" />{" "}
-            Industries. Currently I'm working as a Product Developer at{" "}
-            <CustomLink href="https://edison365.com/" label="Edison365" />, a
-            SaaS company.
+            and{" "}
+            <CustomLink
+              href="https://edison365.com/"
+              label="Project Management"
+            />{" "}
+            Industries. Currently I'm working as a Software Engineer at{" "}
+            <CustomLink
+              href="https://safetynetaccess.com/"
+              label="Safety NetAccess."
+            />{" "}
           </Typography>
         </Stack>
         <TagCloud />

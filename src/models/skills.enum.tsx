@@ -105,4 +105,9 @@ export const skills: Array<IntSkills> = [
     name: "Angular",
     class: "text-xl text-grey-500",
   },
+  {
+    id: 20,
+    name: "Node-RED",
+    class: "text-lg text-green-500",
+  },
 ];

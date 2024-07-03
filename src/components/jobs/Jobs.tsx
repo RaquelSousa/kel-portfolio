@@ -1,12 +1,4 @@
-import {
-  Box,
-  Divider,
-  Link,
-  Stack,
-  Tab,
-  Tabs,
-  Typography,
-} from "@mui/material";
+import { Box, Link, Stack, Tab, Tabs, Typography } from "@mui/material";
 import { JobType, job } from "../../models/jobs.enum";
 import "./jobs.scss";
 import React from "react";
