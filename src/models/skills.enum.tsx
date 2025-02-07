@@ -22,23 +22,23 @@ export const skills: Array<IntSkills> = [
   },
   {
     id: 3,
-    name: "JavaScript",
-    class: "text-lg text-green-500",
-  },
-  {
-    id: 4,
     name: "Material UI",
     class: "text-sm text-orange-500",
   },
   {
-    id: 5,
+    id: 4,
     name: "Storybook",
     class: "text-3xl text-cyan-500",
   },
   {
-    id: 6,
+    id: 5,
     name: "Jest",
     class: "text-md text-blue-500",
+  },
+  {
+    id: 5,
+    name: "Cypress",
+    class: "text-lg text-green-500",
   },
   {
     id: 7,
@@ -107,7 +107,12 @@ export const skills: Array<IntSkills> = [
   },
   {
     id: 20,
-    name: "Node-RED",
+    name: "shadcn",
     class: "text-lg text-green-500",
+  },
+  {
+    id: 20,
+    name: "Agile",
+    class: "text-lg text-gray-500",
   },
 ];

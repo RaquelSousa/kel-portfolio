@@ -75,7 +75,7 @@ export const Jobs = () => {
                   color="secondary"
                   underline="none"
                   target="_blank"
-                  href="https://edison365.com/"
+                  href={jobType.website}
                   variant="overline"
                   sx={(theme: any) => ({
                     "&:hover": {

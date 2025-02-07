@@ -2,6 +2,7 @@ import Hiraeth from "../assets/hiraeth.png";
 import Cryoware from "../assets/cryoware.png";
 import RaquelCv from "../assets/raquelcv.png";
 import Weather from "../assets/weather.png";
+import Kkaquatics from "../assets/kkaquatics.png";
 
 export interface ProjectType {
   id: number;
@@ -64,6 +65,22 @@ export const projects: Array<ProjectType> = [
       "SCSS",
       "Git",
       "Bootstrap",
+      "RESTful API",
+    ],
+  },
+  {
+    id: 4,
+    img: Kkaquatics,
+    title: "K&K Aquatics",
+    website: "https://kandkaquatics.com/",
+    description: "Website for an aquascape, aquarium and pond services company",
+    git: "https://github.com/RaquelSousa/kkaquatics",
+    skills: [
+      "Next.Js",
+      "Typescript",
+      "Tailwind CSS",
+      "Git",
+      "Node.js",
       "RESTful API",
     ],
   },

@@ -65,7 +65,7 @@ function About() {
               href="https://edison365.com/"
               label="Project Management"
             />{" "}
-            Industries. Currently I'm working as a Software Engineer at{" "}
+            Industries. Currently I'm working as a Software Engineer I at{" "}
             <CustomLink
               href="https://safetynetaccess.com/"
               label="Safety NetAccess."
