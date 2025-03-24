@@ -4,7 +4,7 @@ import RaquelCv from "../assets/raquelcv.png";
 import Weather from "../assets/weather.png";
 import Kkaquatics from "../assets/kkaquatics.png";
 import NeuralDraftWebsite from "../assets/neuraldraftwebsite.png";
-import hiraethinfinite from "../assets/hiraethinfinite.png"
+import hiraethinfinite from "../assets/hiraethinfinite.png";
 
 export interface ProjectType {
   id: number;
@@ -40,7 +40,7 @@ export const projects: Array<ProjectType> = [
     id: 2,
     img: RaquelCv,
     title: "Portfolio",
-    website: "https://raquelsousa.dreamhosters.com/",
+    website: "https://raquelsousa-portfolio.vercel.app/",
     description:
       "This is the current website you're on. A CV/Portfolio website to showcase my experience.",
     git: "https://github.com/RaquelSousa/kel-portfolio",
