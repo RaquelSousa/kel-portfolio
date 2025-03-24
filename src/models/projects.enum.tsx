@@ -3,6 +3,8 @@ import Cryoware from "../assets/cryoware.png";
 import RaquelCv from "../assets/raquelcv.png";
 import Weather from "../assets/weather.png";
 import Kkaquatics from "../assets/kkaquatics.png";
+import NeuralDraftWebsite from "../assets/neuraldraftwebsite.png";
+import hiraethinfinite from "../assets/hiraethinfinite.png"
 
 export interface ProjectType {
   id: number;
@@ -19,7 +21,7 @@ export const projects: Array<ProjectType> = [
     id: 0,
     img: Hiraeth,
     title: "Hiraeth",
-    website: "https://hiraeth.dreamhosters.com/",
+    website: "https://hiraeth2.vercel.app/",
     description: "Website created for a World of Warcraft guild called Hiraeth",
     git: "https://github.com/RaquelSousa/hiraeth2",
     skills: ["Typescript", "React", "SCSS", "Git", "Material UI"],
@@ -55,7 +57,7 @@ export const projects: Array<ProjectType> = [
     id: 3,
     img: Weather,
     title: "Weather App",
-    website: "https://kelweather.dreamhosters.com/",
+    website: "https://kel-weather-app.vercel.app/",
     description:
       "Basic Weather app to search a city and get details of the weather real-time.",
     git: "https://github.com/RaquelSousa/weather-app",
@@ -84,4 +86,35 @@ export const projects: Array<ProjectType> = [
       "RESTful API",
     ],
   },
+  // {
+  //   id: 5,
+  //   img: NeuralDraftWebsite,
+  //   title: "NeuralDraft Website",
+  //   website: "https://neuraldraft-website.vercel.app/",
+  //   description: "Website for an app that creates AI-powered eSports analytics. Under Development. Github private",
+  //   git: "/",
+  //   skills: [
+  //     "React",
+  //     "Typescript",
+  //     "Tailwind CSS",
+  //     "Git",
+  //     "Node.js",
+  //     "RESTful API",
+  //   ],
+  // },
+  // {
+  //   id: 6,
+  //   img: hiraethinfinite,
+  //   title: "Hiraeth Infinite",
+  //   website: "https://hiraethinfinite.vercel.app/",
+  //   description: "Website for a web development company. Under Development. Github private",
+  //   git: "/",
+  //   skills: [
+  //     "Next.Js",
+  //     "Typescript",
+  //     "Tailwind CSS",
+  //     "Git",
+  //     "Shadcn"
+  //   ],
+  // },
 ];
